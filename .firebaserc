@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "wordlist-d4ad4"
+  },
+  "targets": {
+    "wordlist-d4ad4": {
+      "hosting": {
+        "test": [
+          "wordtest-26c73"
+        ],
+        "list": [
+          "wordlist-d4ad4"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Meaning</title>
+    <!-- Add Firebase SDK script -->
+    <!-- <script defer src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+    <!-- <script defer src="https://www.gstatic.com/firebasejs/9.0.2/firebase.js"></script> -->
+    <!-- <script defer src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script> -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script defer src="./init-firebase.js"></script>
+</head>
+
+<body>
+    <h1>Word Meaning</h1>
+    <form id="wordForm">
+        <input type="text" id="wordInput" placeholder="Word" required>
+        <input type="text" id="meaningInput" placeholder="Meaning" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <ul id="wordList"></ul>
+
+    <!-- Add your JavaScript code here -->
+
+</body>
+<script defer src="index.js"></script>
+
+</html>

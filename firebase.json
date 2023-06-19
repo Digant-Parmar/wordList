@@ -1,0 +1,23 @@
+{
+
+    "hosting": [{
+            "target": "list",
+            "public": "wordList",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ]
+        },
+        {
+            "target": "test",
+            "public": "wordTest",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ]
+        }
+
+    ]
+}
